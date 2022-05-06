@@ -1,7 +1,8 @@
 
 function callback(p){
     console.log(p);
-    window.open('./main.html');
+    // window.open('./main.html');
+    window.location.assign('https://jeenacd.github.io/to-do-list-app/main.html')
 }
 
 function validate(callback){
